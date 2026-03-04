@@ -1,0 +1,18 @@
+What is Lorem Ipsum?
+Lorem Ipum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+It has survived not only fIt was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.ive centuries, but also the leap into electronic typesetting, remaining esially unchanged.
+Recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+To paste the entire content of a file in Vim, use the :%y command to yank (copy) all lines in the file into the default register, then paste it elsewhere. 
+
+Steps to Copy and Paste the Entire File
+Ensure you're in Normal mode (press Esc if needed). 
+Yank the entire file:
+Type :%y and press Enter.
+% represents all lines from line 1 to the last line (1,$).
+This copies the entire file to the default register.
+Move to the desired location (e.g., another file, buffer, or new location in the same file). 
+Paste the content:
+Press p to paste after the cursor.
+Press P to paste before the cursor. 
